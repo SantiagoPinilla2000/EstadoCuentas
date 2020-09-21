@@ -1,0 +1,5 @@
+") = "" Then
+    Range("J1") = "Cuenta al dia"
+    Else
+    Range("J1") = "Cuenta Pendiente"
+    End If
